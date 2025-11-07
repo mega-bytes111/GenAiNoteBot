@@ -8,7 +8,7 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 
 # --- Replace this with your actual API key ---
-OpenAI_API_KEY = "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"
+OpenAI_API_KEY = "Your api key"
 
 # --- Streamlit UI ---
 st.header("📘 NoteBot - Ask Questions About Your Notes")
@@ -82,3 +82,4 @@ if file is not None:
         # --- Display the response ---
         st.subheader("🧠 Answer:")
         st.write(response)
+
